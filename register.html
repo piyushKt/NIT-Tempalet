@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nit@ iframe test</title>
+    <link rel="stylesheet" href="./node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
+   <style>
+   
+   </style>
+
+</head>
+<body class="container-fluid">
+   
+    
+        <div class="d-flex flex-wrap justify-content-evenly">
+            
+                <div style="width: 500px; box-shadow: 0px 0px 10px black;" class="mt-4">
+                   <form>
+                    <h4 class="pt-3 ">Registration Form </h4>
+                    <div class="mt-4">
+                        <label for="userName" class="form-label m-1">Full Name:</label>
+                        <input type="text" name="userName" id="userName" placeholder="Full Name" class="form-control ">
+        
+                    </div>
+                    <div class="mt-3">
+                        <label for="email" class="form-label m-2">Email:</label>
+                        <input type="email" class="form-control " id="email" name="email" placeholder="email">
+        
+                    </div>
+                    <div class="mt-3">
+                        <label for="mobNo" class="form-label m-2">Mobile:</label>
+                        <input type="number" class="form-control " id="mobNo" name="mobNo" placeholder="Contact Number">
+        
+                    </div>
+                    <div class="mt-3">
+                        <label for="dob" class="form-label m-2">DOB:</label>
+                        <input type="date" class="form-control " id="dob" name="dob" placeholder="Date Of Birth">
+        
+                    </div>
+                    <div class="mt-3">
+                        
+                        <dt class="m-2">Image:</dt>
+                        <input type="file"  name="file">
+        
+                    </div>
+                    <div class="mt-3">
+                        <label for="pass" class="form-label m-2">Password</label>
+                        <input type="password" class="form-control " id="pass" name="pass" placeholder="password">
+        
+                    </div>
+                    <div class="mt-3">
+                        <label for="confPass" class="form-label m-2">Confirm Password:</label>
+                        <input type="password" class="form-control "  id="confPass" name="confPass" placeholder="Confirm Password">
+        
+                    </div>
+                    <div class="mt-3">
+                        <dt>Gender:</dt>
+                        <div class="form-check ms-2">
+                        <input type="radio"  name="gender" value="male" class="form-check-input" id="option1">Male
+                        <label for="option1" class="form-check-label "></label>
+           
+                        </div>              
+                          <div class="form-check ms-2">
+        <input type="radio" class="form-check-input" id="option2" name="gender" value="female">Female
+        <label class="form-check-label" for="option2"></label>
+                          </div>
+        
+                    </div>
+                    <div class="mt-3 form-check ms-2">
+        <input type="checkbox" class="form-check-input" id="term">I've read and Accept the
+            <label for="term" class="form-check-label"></label><a href="#tarmAndCondetion" class="text-danger " data-bs-toggle="modal" data-bs-target="">Term and Condetion</a>
+        
+           
+           
+                    </div>
+        
+                    <div class="mt-4 d-flex justify-content-around pb-4">
+                        <button class="btn btn-warning">Already you have an account</button>
+                        <button class="btn btn-success">Register</button>
+                    </div>
+                    
+        
+        
+                   </form>
+                </div>
+           
+        
+               
+               <div class=" mt-5">
+                <div style="width: 100px; height:300px; " class="mt-5" >
+                <img src="../NIT/public/images/user (1).png" width="100" height="100" >
+            </div> 
+            
+            </div>
+            </div>
+        
+    
+   
+   <!--Modal Starts-->
+   <div class="modal fade" id="tarmAndCondetion">
+    <div class="modal-dialog ">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="text-warning">Term And Condetion</h3>
+                <button class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+                <p class="ms-1"><span class="bi bi-star-fill me-1"></span>A Terms and Conditions agreement is the agreement that includes the terms, the rules and the guidelines of acceptable behavior and other useful sections to which users must agree in order to use or access your website and mobile app.</p>
+                <div class="mt-3">
+                   <p class="ms-1"> <span class="bi bi-star-fill me-1"></span>While most websites seem to have one, there's actually no legal requirement for defining terms and conditions. However, if you are gathering user's personal data, you are required to have a stated Privacy Policy. Terms and Conditions may not be required by law, but it's still a smart thing to include.</p>
+                    </div>
+
+            </div>
+            <div class="modal-footer">
+                <div>
+                    <button class="btn btn-warning" data-bs-dismiss="modal">close</button>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+
+
+                 
+
+   
+
+<script src="./node_modules/jquery/dist/jquery.js"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
+</html>
